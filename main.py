@@ -9,7 +9,7 @@ import os
 os.makedirs("db", exist_ok=True)
 
 # Database Setup
-DATABASE_PATH = "../db/fastapi_db.db"
+DATABASE_PATH = "db/fastapi_db.db"
 
 # Initialize DB and Create Table
 def init_db():
